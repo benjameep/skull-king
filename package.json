@@ -1,0 +1,24 @@
+{
+  "name": "skull-king",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">14.0.0"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/assert": "^1.5.6",
+    "@types/mocha": "^9.1.0",
+    "@types/node": "^17.0.21",
+    "mocha": "^9.2.1",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.5.5"
+  }
+}
